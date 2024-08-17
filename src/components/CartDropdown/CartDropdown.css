@@ -1,0 +1,144 @@
+.cart-dropdown {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 10px;
+  height: auto; 
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.close-dropdown {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(161, 154, 154);
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+.remove-button:hover {
+  color: rgb(255, 125, 26);
+
+}
+
+.empty-cart-message {
+  text-align: center;
+  color: rgb(161, 154, 154);
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.empty-cart-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.item-details {
+  margin-left: 10px;
+}
+
+.checkout-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(255, 125, 26);
+  color: black;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item {
+  font-size: 10px;
+  margin-bottom: 2px;
+  color: rgb(161, 154, 154);
+}
+
+.price-quantity {
+  display: flex;
+  font-size: 10px;
+  color: rgb(161, 154, 154);
+}
+
+.total-price {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.quantity {
+  margin-left: 4px;
+  margin-bottom: 1px;
+}
+
+
+
+
+
+
+/* .cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative; 
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: auto; 
+}
+
+.delete-button:hover {
+  color: darkred;
+} */
+
+
+
+
+
+
+
+
